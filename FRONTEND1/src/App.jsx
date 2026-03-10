@@ -1,9 +1,9 @@
 import { createBrowserRouter, RouterProvider } from "react-router";
-import RootLayout from "./components/RootLayout";
-import Home from "./components/Home";
-import AddUser from "./components/AddUser";
-import UserList from "./components/UserList";
-import User from "./components/User";
+import RootLayout from "./Components/RootLayout";
+import Home from "./Components/Home";
+import AddUser from "./Components/AddUser";
+import UserList from "./Components/UserList";
+import User from "./Components/User";
 
 function App() {
   const routerObj = createBrowserRouter([
