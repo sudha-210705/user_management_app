@@ -1,0 +1,21 @@
+###create user
+POST http://localhost:4000/user-api/users
+Content-Type: application/json
+
+{
+    "name":"sudha",
+    "email":"sudh2a@gmail.com",
+    "dateOfBirth":"2000-09-12",
+    "mobileNumber":"9876543210"
+}
+###read all user
+GET http://localhost:4000/user-api/users
+###read a user by id
+GET http://localhost:4000/user-api/users/69b02cb3d3ed9822d6cd459c
+###delete user by id
+DELETE http://localhost:4000/user-api/users/69a68bdb939e43ab2650d024
+
+
+
+### ACtivate user
+PATCH http://localhost:4000/user-api/users/69a68bdb939e43ab2650d024
