@@ -108,7 +108,7 @@ UserApp.patch('/users/:id',async(req,res)=>{
   {$set:{status:true}},
   {new:true}
  );
-  return res.status(404).json({message:'User Activated'});
+  return res.status(404).json({message:'User Activated',payload:user});
 `//check user `
 })
 
