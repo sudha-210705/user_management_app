@@ -1,7 +1,7 @@
 import exp from "express";
 import { connect } from "mongoose";
 import { config } from "dotenv";
-import { UserApp } from "./API/UserAPI.js";
+import { UserApp } from "./API/UserApi";
 import cors from 'cors'
 //Read environment variables
 config();
